@@ -1,0 +1,19 @@
+graph G{
+q [color=green]; 
+q -- w; 
+q -- e; 
+w [color=orange]; 
+w -- z; 
+e [color=red]; 
+e -- c; 
+a [color=green]; 
+a -- x; 
+a -- c; 
+s [color=orange]; 
+s; 
+d [color=green]; 
+d; 
+z [color=orange]; 
+x [color=orange]; 
+c [color=red]; 
+}

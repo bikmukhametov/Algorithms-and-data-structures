@@ -1,0 +1,30 @@
+graph G{
+"5" [shape="record", label = "5|{release: 1\ninfo: 5}"]; 
+Elist -- "5" [style=dashed]; 
+"5" [color=black]; 
+"2" [shape="record", label = "2|{release: 1\ninfo: 2|release: 2\ninfo: edfd}"]; 
+"5" -- "2"; 
+"2" [color=red]; 
+"1" [shape="record", label = "1|{release: 1\ninfo: 1}"]; 
+"2" -- "1"; 
+"1" [color=black]; 
+"1" -- Elist [style=dashed]; 
+Elist [color=blue]; 
+Elist [color=blue]; 
+"3" [shape="record", label = "3|{release: 1\ninfo: 3}"]; 
+"2" -- "3"; 
+"3" [color=black]; 
+"3" -- Elist [style=dashed]; 
+Elist [color=blue]; 
+Elist [color=blue]; 
+"32" [shape="record", label = "32|{release: 1\ninfo: dfggdf}"]; 
+"5" -- "32"; 
+"32" [color=black]; 
+"6" [shape="record", label = "6|{release: 1\ninfo: 6}"]; 
+"32" -- "6"; 
+"6" [color=red]; 
+"6" -- Elist [style=dashed]; 
+Elist [color=blue]; 
+Elist [color=blue]; 
+Elist [color=blue]; 
+}
